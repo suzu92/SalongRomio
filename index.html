@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vin</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <a href="#start" class="btn">Start</a>
+    <a href="#om" class="btn">Om Vinet</a>
+    <a href="#recept" class="btn">Recept</a>
+    <a href="#produkter" class="btn">Produkter</a>
+    <a href="#kontakt" class="btn">Kontakt</a>
+</div>
+
+<div id="start" class="content">
+    <img class="header" src="img/header.PNG" alt="header">
+
+    <div id="om">
+        <h1 class="content-center">Gamlebärstaneten och Bäpplegubbens vin.</h1>
+        <p>För att inte låta gamla bär eller gammal frukt gå till spillo valde två äldre själar
+            i hjärtat av Göteborg att ta till vara på och skapa naturliga bär och fruktviner av
+            överbliven frukt från släktingars trädgårdar. Med respekt för naturen och ansvaret
+            att göra så gott det går för att minska sin klimatpåverkan bjuder de nu på en
+            uppfriskande naturupplevelse att avnjuta i egen takt.</p>
+    </div>
+
+    <div id="recept">
+        <h1 class="content-center">Receptet för att göra eget vin.</h1>
+        <img class="content-recept" src="img/recept.PNG" alt="recepie">
+    </div>
+
+    <div id="produkter">
+        <h2 class="content-center">Mer än bara vin</h2>
+        <div class="bildKarusell">
+            <p>Utöver gamlebärsvin och bäpplevin så kan du se ettiketter och stämplar här.</p>
+            <div class="minaBilder">
+                <img class="slide-img" src="img/fan.PNG" alt="etikett2">
+            </div>
+
+            <div class="minaBilder">
+                <img class="slide-img" src="img/javel.jpg" alt="etikett1">
+            </div>
+
+            <div class="minaBilder">
+                <img class="slide-img" src="img/bar.JPG" alt="rod">
+            </div>
+
+            <div class="minaBilder">
+                <img class="slide-img" src="img/apple.JPG" alt="gron">
+            </div>
+            <div class="minaBilder">
+                <img class="slide-img" src="img/tant.PNG" alt="tant">
+            </div>
+
+            <div class="minaBilder">
+                <img class="slide-img" src="img/gubbe.PNG" alt="tant">
+            </div>
+
+            <a class="before" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="after" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dots">
+            <span class="punkt" onclick="currentSlide(1)"></span>
+            <span class="punkt" onclick="currentSlide(2)"></span>
+            <span class="punkt" onclick="currentSlide(3)"></span>
+            <span class="punkt" onclick="currentSlide(4)"></span>
+            <span class="punkt" onclick="currentSlide(5)"></span>
+            <span class="punkt" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div id="kontakt" class="content-center">
+    <h2>KONTAKTA GAMLEBÄRSGUMMAN OCH BÄPPLEGUBBEN</h2>
+    Göteborg, SE<br>
+    Telefon: +46 77 777 77 77<br>
+    Email: info@gbvin.com<br>
+
+    <form target="_blank">
+        <label>
+            <input class="kontaktInput" type="text" placeholder="Namn">
+        </label>
+        <label>
+            <input class="kontaktInput" type="text" placeholder="Email">
+        </label>
+        <label>
+            <input class="kontaktInput" type="text" placeholder="Meddelande">
+        </label><br>
+        <button class="btn" type="submit">Skicka</button>
+    </form>
+    <img class="svartLogga" src="img/bg-svart.png" alt="logga">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

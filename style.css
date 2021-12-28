@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    overflow-x:hidden
+}
+body {
+    margin:0;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5
+}
+h1{font-size:36px}
+h2{font-size:30px}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    margin:10px 0
+}
+p {
+    margin: 1em;
+}
+.header {
+    max-width: 100%;
+}
+.nav {
+    position:fixed;
+    max-width:100%;
+    z-index:1;
+    top:0
+}
+.btn {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    font-size: 1em;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap}
+.btn:hover{
+    color:white;
+    background-color:lightgray;
+}
+.content {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px
+}
+.content-center {
+    text-align:center
+}
+.content-recept {
+    max-width: 100%;
+}
+.kontaktInput {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid gray;
+    width:100%
+}
+.svartLogga {
+    max-width: 40%;
+}
+.bildKarusell {
+    max-width: 550px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.minaBilder {
+    display: none;
+}
+.slide-img {
+    height: 550px;
+}
+.before, .after {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.after {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.before {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+.before:hover, .after:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dots {
+    text-align: center;
+}
+.punkt {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .punkt:hover {
+    background-color: black;
+}
+
+
+
