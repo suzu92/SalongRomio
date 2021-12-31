@@ -20,7 +20,7 @@ p {
     margin: 1em;
 }
 .header {
-    max-width: 100%;
+    max-width: 40%;
 }
 .nav {
     position:fixed;
@@ -36,19 +36,13 @@ p {
     overflow:hidden;
     font-size: 1em;
     text-decoration:none;
-    color:inherit;
-    background-color:inherit;
+    color:black;
     text-align:center;
     cursor:pointer;
     white-space:nowrap}
 .btn:hover{
     color:white;
     background-color:lightgray;
-}
-.content {
-    margin-left:auto;
-    margin-right:auto;
-    max-width:980px
 }
 .content-center {
     text-align:center
@@ -63,9 +57,6 @@ p {
     border-bottom:1px solid gray;
     width:100%
 }
-.svartLogga {
-    max-width: 40%;
-}
 .bildKarusell {
     max-width: 550px;
     position: relative;
@@ -77,6 +68,7 @@ p {
 }
 .slide-img {
     height: 550px;
+    width: 400px;
 }
 .before, .after {
     cursor: pointer;
@@ -125,5 +117,19 @@ p {
     background-color: black;
 }
 
+form {
+    margin: 1em;
+}
+.fb {
+    max-width: 2em;
+}
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 1px solid black;
+}
+.logo {
+    max-width: 40%;
+}
 
 

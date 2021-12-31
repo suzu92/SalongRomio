@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vin</title>
+    <title>Romio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,78 +10,70 @@
 
 <div class="nav">
     <a href="#start" class="btn">Start</a>
-    <a href="#om" class="btn">Om Vinet</a>
-    <a href="#recept" class="btn">Recept</a>
-    <a href="#produkter" class="btn">Produkter</a>
+    <a href="#priser" class="btn">Prislista</a>
+    <a href="#bilder" class="btn">Bilder</a>
     <a href="#kontakt" class="btn">Kontakt</a>
 </div>
 
-<div id="start" class="content">
-    <img class="header" src="img/header.PNG" alt="header">
+<div id="start" class="content-center">
+    <img class="header" src="img/logo.JPG" alt="header">
 
-    <div id="om">
-        <h1 class="content-center">Gamlebärstaneten och Bäpplegubbens vin.</h1>
-        <p>För att inte låta gamla bär eller gammal frukt gå till spillo valde två äldre själar
-            i hjärtat av Göteborg att ta till vara på och skapa naturliga bär och fruktviner av
-            överbliven frukt från släktingars trädgårdar. Med respekt för naturen och ansvaret
-            att göra så gott det går för att minska sin klimatpåverkan bjuder de nu på en
-            uppfriskande naturupplevelse att avnjuta i egen takt.</p>
+    <div id="priser">
+        <h2 class="content-center">PRISLISTA</h2>
+
     </div>
 
-    <div id="recept">
-        <h1 class="content-center">Receptet för att göra eget vin.</h1>
-        <img class="content-recept" src="img/recept.PNG" alt="recepie">
-    </div>
-
-    <div id="produkter">
-        <h2 class="content-center">Mer än bara vin</h2>
+    <div id="bilder">
+        <h2 class="content-center">BILDER</h2>
         <div class="bildKarusell">
-            <p>Utöver gamlebärsvin och bäpplevin så kan du se ettiketter och stämplar här.</p>
             <div class="minaBilder">
-                <img class="slide-img" src="img/fan.PNG" alt="etikett2">
+                <img class="slide-img" src="img/frisyr0.png" alt="frisyr0">
             </div>
 
             <div class="minaBilder">
-                <img class="slide-img" src="img/javel.jpg" alt="etikett1">
+                <img class="slide-img" src="img/frisyr1.png" alt="frisyr1">
             </div>
 
             <div class="minaBilder">
-                <img class="slide-img" src="img/bar.JPG" alt="rod">
+                <img class="slide-img" src="img/frisyr2.png" alt="frisyr2">
             </div>
 
             <div class="minaBilder">
-                <img class="slide-img" src="img/apple.JPG" alt="gron">
+                <img class="slide-img" src="img/frisyr3.png" alt="frisyr3">
             </div>
             <div class="minaBilder">
-                <img class="slide-img" src="img/tant.PNG" alt="tant">
+                <img class="slide-img" src="img/frisyr4.png" alt="frisyr4">
             </div>
 
             <div class="minaBilder">
-                <img class="slide-img" src="img/gubbe.PNG" alt="tant">
+                <img class="slide-img" src="img/frisyr5.png" alt="frisyr5">
             </div>
 
             <a class="before" onclick="plusSlides(-1)">&#10094;</a>
             <a class="after" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <div class="dots">
+            <span class="punkt" onclick="currentSlide(0)"></span>
             <span class="punkt" onclick="currentSlide(1)"></span>
             <span class="punkt" onclick="currentSlide(2)"></span>
             <span class="punkt" onclick="currentSlide(3)"></span>
             <span class="punkt" onclick="currentSlide(4)"></span>
             <span class="punkt" onclick="currentSlide(5)"></span>
-            <span class="punkt" onclick="currentSlide(6)"></span>
         </div>
     </div>
 </div>
 <br>
 <br>
 <div id="kontakt" class="content-center">
-    <h2>KONTAKTA GAMLEBÄRSGUMMAN OCH BÄPPLEGUBBEN</h2>
-    Göteborg, SE<br>
-    Telefon: +46 77 777 77 77<br>
-    Email: info@gbvin.com<br>
+    <h2>KONTAKTA SALONG ROMIO</h2>
+    
+    Bagaregårdsgatan 12, 416 70 Göteborg, SE<br>
+    Telefon: 031 21 23 90<br>
+    Mobil: 0737 55 75 58<br>
+    Email: salong-romio@hotmail.com<br>
+    <a href="https://sv-se.facebook.com/hairdress2005/" target="_blank"><img class="fb" src="img/fb.png" alt="fb"></a>
 
-    <form target="_blank">
+    <form>
         <label>
             <input class="kontaktInput" type="text" placeholder="Namn">
         </label>
@@ -93,7 +85,8 @@
         </label><br>
         <button class="btn" type="submit">Skicka</button>
     </form>
-    <img class="svartLogga" src="img/bg-svart.png" alt="logga">
+    <iframe class="content-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2130.863349889669!2d12.010321515999873!3d57.718778881124564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff47a570f267b%3A0x53ac92bf49d7b3ef!2sSalong%20Romio!5e0!3m2!1ssv!2sse!4v1640777783620!5m2!1ssv!2sse" ></iframe><br>
+    <img class="logo" src="img/logo.JPG" alt="logga">
 </div>
 
 <script src="script.js"></script>
