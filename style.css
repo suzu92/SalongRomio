@@ -4,17 +4,17 @@ html {
 }
 body {
     margin:0;
-    font-family:Verdana,sans-serif;
+    font-family:Eina,sans-serif;
     font-size:15px;
-    line-height:1.5
+    line-height:1.5;
+    background-color: #D5D2D0;
 }
-h1{font-size:36px}
-h2{font-size:30px}
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:"Segoe UI",Arial,sans-serif;
+    font-family: Eina,sans-serif;
     font-weight:400;
-    margin:10px 0
+    margin:10px 0;
+    color: #92737A;
 }
 p {
     margin: 1em;
@@ -37,12 +37,13 @@ p {
     font-size: 1em;
     text-decoration:none;
     color:black;
+    background-color: #BDB8B5;
     text-align:center;
     cursor:pointer;
     white-space:nowrap}
 .btn:hover{
     color:white;
-    background-color:lightgray;
+    background-color:black;
 }
 .content-center {
     text-align:center
