@@ -28,13 +28,22 @@ Och en mer detaljerad prototyp med färgskalan på ett ungefär:
 När det gäller fonts så valde jag Eina som jag brukar använda i
 procreate.
 
- # Beskriv lite olika lösningar du gjort:
+## Beskriv lite olika lösningar du gjort:
 
-Jag ville göra en logga till sidan. Först så gjorde jag den
-i samma färg som texten på visitkortet men blev inte riktigt nöjd med den. Så testade en mörkare, monochromatic från canva som kändes bättre.
+Jag ville göra en logga till sidan. Dels för att direkt kunna se vad sidan handlar om samt få mer användning av färgerna. Jag ville ha en ganska stilren logga som skulle kunna gå att få med både namnet och en sax, för att visa att det handlar om att klippa sig. Först så gjorde jag den i samma färg som texten på visitkortet men blev inte riktigt nöjd med den. Så testade en mörkare, monochromatic från canva som kändes bättre.
 ![felfärg](img/Logo_Romio.jpeg)![rättfärg](img/Logo_Romio.png)
 
-Beskriv något som var besvärligt att få till. Beskriv om du fått byta lösning och
+Funderade på att göra en drop down men körde istället med en navbar som följer med. Den länkar till titlarna istället för att byta sida.
+Jag valde att ha all information på en sida efter som det viktigaste att få med var prislista, öppetider, adress och telefonnummer. Det blev totalt inte så mycket text och kändes därför enklare att hålla det på samma sida.
+
+Letade efter inspiration på google efter hur andra lagt upp informationen och det var så många olika varianter att jag valde att bara utgå från en tidigare hemsida jag gjort nyligen.
+
+
+## Beskriv något som var besvärligt att få till. 
+
+Det svåraste för mig var att hitta en font. Jag valde Eina i slutändan som kan kännas lite tråkig men jag ville inte ha en för snirklig stil som skulle bli jobbig att läsa eller ses som alldeles för feminin. 
+
+Beskriv om du fått byta lösning och
 varför i sådana fall. Använd korrekta begrepp och syntax i dina beskrivningar. I utvärderingen diskuterar eleven
 översiktligt hur det egna gränssnittet förhåller sig till generella principer för hur en god användarupplevelse skapas.
 Beskriv hur du felsökt ditt program när det uppstått problem Utvärdera din inlämning Vad gick bra Vad gick dåligt Vad

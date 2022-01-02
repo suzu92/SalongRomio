@@ -5,7 +5,6 @@ html {
 body {
     margin:0;
     font-family:Eina,sans-serif;
-    font-size:15px;
     line-height:1.5;
     background-color: #D5D2D0;
 }
@@ -20,7 +19,8 @@ p {
     margin: 1em;
 }
 .header {
-    max-width: 40%;
+    max-width: 50%;
+    margin-top: 2em;
 }
 .nav {
     position:fixed;
@@ -29,6 +29,23 @@ p {
     top:0
 }
 .btn {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    font-size: 1em;
+    text-decoration:none;
+    color:#765C62;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap}
+.btn:hover{
+    color:white;
+    background-color:black;
+}
+
+.btn-send {
     border:none;
     display:inline-block;
     padding:8px 16px;
@@ -45,18 +62,19 @@ p {
     color:white;
     background-color:black;
 }
+
 .content-center {
     text-align:center
 }
-.content-recept {
-    max-width: 100%;
-}
+
 .kontaktInput {
+    margin-left: 1em;
     padding:8px;
     display:block;
     border:none;
-    border-bottom:1px solid gray;
-    width:100%
+    background-color: #D5D2D0;
+    border-bottom:1px solid #92737A;
+    width:80%
 }
 .bildKarusell {
     max-width: 550px;
@@ -71,6 +89,13 @@ p {
     height: 550px;
     width: 400px;
 }
+@media screen and (max-width: 600px){
+    .slide-img {
+        width: 200px;
+        height: 275px;
+    }
+}
+
 .before, .after {
     cursor: pointer;
     position: absolute;
@@ -92,15 +117,7 @@ p {
 .before:hover, .after:hover {
     background-color: rgba(0,0,0,0.1);
 }
-.text {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
+
 .dots {
     text-align: center;
 }
@@ -109,28 +126,33 @@ p {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: gray;
+    background-color: #765C62;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 .active, .punkt:hover {
-    background-color: black;
+    background-color: #92737A;
 }
 
-form {
-    margin: 1em;
-}
 .fb {
     max-width: 2em;
 }
 iframe {
-    width: 600px;
-    height: 450px;
+    width: 1000px;
+    height: 700px;
     border: 1px solid black;
+}
+@media screen and (max-width: 600px){
+    iframe {
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+    }
 }
 .logo {
     max-width: 40%;
 }
+
 
 
