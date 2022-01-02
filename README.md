@@ -14,8 +14,8 @@ visitkortet till hemsidans bakgrund.
 ![färger1](img/monochromatic1.png)
 Valde att ha brödtexten svart som på kortet.
 
-Jag valde att prova en analog projektplan den här gången. Delade upp den efter vad vi skulle leverera i projektet.
-![projektplan](img/)
+Jag valde att prova en analog projektplan den här gången. Delade upp den efter vad vi skulle leverera i projektet. Hade även en hel hög med post-it notiser..
+![projektplan](img/pp.png)
 
 Till mina personas gjorde jag först en skiss och sen skrev jag rent dem i procreate.
 ![skiss](img/personas_skiss.png)
@@ -51,7 +51,7 @@ Inspektorn i webbläsare var min bästa hjälp. Framförallt när det gällde bi
 
 ## Vad gick bra och vad gick dåligt
 
-Jag tycker att loggan blev bra, de jag har frågat ser direkt att det handlar om en frisörsalong. Är ändå ganska nöjd med färg temat, det går att se att den hör ihop med visitkortet. Jag fick med det som kunden tyckte var viktigast men skulle vilja fått till UX/UI lite bättre. Sidan flyter på helt okej och går att läsa och hitta vad som är viktigt men layouten kunde gjorts mycket snyggare.
+Jag tycker att loggan blev bra, de jag har frågat ser direkt att det handlar om en frisörsalong. Är ändå ganska nöjd med färg temat, det går att se att den hör ihop med visitkortet. Jag fick med det som kunden tyckte var viktigast men skulle vilja fått till UX/UI lite bättre. Sidan flyter på helt okej och går att läsa och hitta vad som är viktigt men layouten kunde gjorts mycket snyggare. Är nöjd med mina personas, var väldigt osäker på hur mycket information som behöövdes men tycker de funkar bra till det här projektet.
 Jag lärde mig en hel del om fonts under den här kursen och ändå valde jag en ganska intetsägande Eina för den var lättläst och enkel att implementera. Annars tyckte jag avenue och aoki var väldigt fina typsnitt. Canvas color wheel var också ett väldigt användbart hjälpmedel under den här kursen.
 Det var lite svårt att ha en kund som inte var speciellt engagerad i processen. Tänker att till nästa gång jag gör ett arbete åt någon är det viktigt att lägga fram en plan tidigt och uppdatera under arbetets gång med jämnare mellanrum. Tyvärr blir det lite klurigt under jul och nyår eftersom hon var bortrest och jag jobbade en hel del på annat håll. Finns mycket att förbättra där.
 
