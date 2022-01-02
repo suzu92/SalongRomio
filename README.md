@@ -43,11 +43,33 @@ Letade efter inspiration på google efter hur andra lagt upp informationen och d
 
 Det svåraste för mig var att hitta en font. Jag valde Eina i slutändan som kan kännas lite tråkig men jag ville inte ha en för snirklig stil som skulle bli jobbig att läsa eller ses som alldeles för feminin. 
 
-Beskriv om du fått byta lösning och
-varför i sådana fall. Använd korrekta begrepp och syntax i dina beskrivningar. I utvärderingen diskuterar eleven
-översiktligt hur det egna gränssnittet förhåller sig till generella principer för hur en god användarupplevelse skapas.
-Beskriv hur du felsökt ditt program när det uppstått problem Utvärdera din inlämning Vad gick bra Vad gick dåligt Vad
-har du lärt dig Vilka möjligheter ser du med de kunskaper du fått under kursen. Eleven gör en noggrann dokumentation av
-sitt arbete med UX samt utvärderar med nyanserade omdömen sitt arbete och resultat utifrån projektplanen. Motivera
-varför du valt en specifik lösning. Lämna förslag på förbättringar av din kod. Lämna exempel på lösningar du valde att
-inte implementera
+Hade även problem med den responsiva designen. I min prototyp hade jag tänkt använda flex för att skriva priserna och kontakt informationen i två kolumner i desktop läge men lät tillslut dem vara kvar i en kolumn, som i mobilläget.
+
+## Beskriv hur du felsökt ditt program när det uppstått problem 
+
+Inspektorn i webbläsare var min bästa hjälp. Framförallt när det gällde bilder i de olika enheterna. Lättare att se med inspektera öppet när jag ändrade något i css.
+
+## Vad gick bra och vad gick dåligt
+
+Jag tycker att loggan blev bra, de jag har frågat ser direkt att det handlar om en frisörsalong. Är ändå ganska nöjd med färg temat, det går att se att den hör ihop med visitkortet. Jag fick med det som kunden tyckte var viktigast men skulle vilja fått till UX/UI lite bättre. Sidan flyter på helt okej och går att läsa och hitta vad som är viktigt men layouten kunde gjorts mycket snyggare.
+Jag lärde mig en hel del om fonts under den här kursen och ändå valde jag en ganska intetsägande Eina för den var lättläst och enkel att implementera. Annars tyckte jag avenue och aoki var väldigt fina typsnitt. Canvas color wheel var också ett väldigt användbart hjälpmedel under den här kursen.
+Det var lite svårt att ha en kund som inte var speciellt engagerad i processen. Tänker att till nästa gång jag gör ett arbete åt någon är det viktigt att lägga fram en plan tidigt och uppdatera under arbetets gång med jämnare mellanrum. Tyvärr blir det lite klurigt under jul och nyår eftersom hon var bortrest och jag jobbade en hel del på annat håll. Finns mycket att förbättra där.
+
+## Motivera varför du valt en specifik lösning. 
+
+Jag valde att lägga in en iframe från google maps istället för att
+skriva var det lättast går att ta sig till salongen kollektivt.
+Det är dessutom lättare att se parkerings möjligheter samt hur man tar sig dit på enklast sätt med rekommendationer från google.
+Google har även recensioner, eller visar betyg i form av stjärnor i hörnet på sin karta så det underlättar att se vad andra tyckte om upplevelsen där på ett ungefär.
+
+## Lämna förslag på förbättringar av din kod. 
+
+Lägga ner mer tid på att göra den flytande och responsiv över alla enheter. Nu är den alldeles för mobil fokuserad. Efter som det är en ganska enkel sida utan speciellt mycket information så är koden i sig rätt enkel. Jag tog en bildkarusell från W3schools som jag kanske kunde lekt med lite mer, nu är den i enklaste laget.
+
+## Lämna exempel på lösningar du valde att inte implementera
+
+Skulle vilja implemetera mer JS nästa gång och våga prova flerr saker. Hade en idé om att göra hela projektet i JS eftersom jag
+inte lyckades med det i ett tidigare projekt. 
+
+Jag valde även att inte följa min prototyp helt och hållet. Större delen av sidan är endast för mobil. Utgick lite från att det är då folk kommer se på hemsidan som mest så var okej med det.
+
